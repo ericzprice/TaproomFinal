@@ -1,0 +1,31 @@
+package taproom.model.service;
+
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+
+import org.eclipse.persistence.oxm.MediaType;
+
+import taproom.model.Order;
+import taproom.model.dao.OrderDao;
+import taproom.model.dao.OrderDaoInMemoryImp;
+
+@Path("orders")
+public class OrderServiceImplementation implements OrderService {
+
+	
+	OrderDao orderDao=new OrderDaoInMemoryImp();
+	@POST
+	@Produces(MediaType.APPLICATION_JSON)
+		public Boolean addOrder(@PathParam("order") Order order)
+		return orderDao.addOrder(order);
+	}
+
+	@Override
+	public boolean removeOrder(Order order) {
+		// TODO Auto-generated method stub
+		return orderDao.removeOrder(order);
+	}
+
+}

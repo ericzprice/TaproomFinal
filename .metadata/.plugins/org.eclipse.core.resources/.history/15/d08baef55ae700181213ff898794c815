@@ -1,0 +1,120 @@
+package taproom.model;
+
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
+public class Beer {
+
+	@XmlElement
+	String style;
+	@XmlElement
+	double price1;
+	@XmlElement
+	double price2;
+	@XmlElement
+	int ABV;
+	@XmlElement
+	int IBU;
+	@XmlElement
+	int  size1; 
+	@XmlElement
+	int size2;
+	@XmlElement
+	int totalOunes;//1984 
+	@XmlElement
+	boolean kicked;
+    Location location;
+    @XmlElement
+    String description;
+    //declare the constructor of the class
+	public Beer(String style, String description,double price1,double price2, int  iBU, int  aBV, int  size1,int size2,int totalOunes,Location location) {
+		super();
+//		to differentiate between the child class and super class methods/variables etc.
+		this.style = style;
+		this.description=description;
+		this.price1 = price1;
+		this.price2=price2;
+		ABV = aBV;
+		IBU = iBU;
+		this.size1 = size1;
+		this.size2=size2;
+		this.totalOunes=totalOunes;
+		this.location=location;
+	}
+	public Beer() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public String getStyle() {
+		return style;
+	}
+	public void setStyle(String style) {
+		this.style = style;
+	}
+	public double getPrice1() {
+		return price1;
+	}
+	public void setPrice1(double price1) {
+		this.price1 = price1;
+	}
+	public double getPrice2() {
+		return price2;
+	}
+	public void setPrice2(double price2) {
+		this.price2 = price2;
+	}
+	public int getABV() {
+		return ABV;
+	}
+	public void setABV(int aBV) {
+		ABV = aBV;
+	}
+	public int getIBU() {
+		return IBU;
+	}
+	public void setIBU(int iBU) {
+		IBU = iBU;
+	}
+	public int getSize1() {
+		return size1;
+	}
+	public void setSize1(int size1) {
+		this.size1 = size1;
+	}
+	public int getSize2() {
+		return size2;
+	}
+	public void setSize2(int size2) {
+		this.size2 = size2;
+	}
+	public int getTotalOunes() {
+		return totalOunes;
+	}
+	public void setTotalOunes(int totalOunes) {
+		this.totalOunes = totalOunes;
+	}
+	public boolean isKicked() {
+		return kicked;
+	}
+	public void setKicked(boolean kicked) {
+		this.kicked = kicked;
+	}
+	public Location getLocation() {
+		return location;
+	}
+	public void setLocation(Location location) {
+		this.location = location;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	
+	
+	
+	
+	
+}

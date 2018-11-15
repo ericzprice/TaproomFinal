@@ -1,0 +1,23 @@
+package taproom.model.service;
+
+import taproom.model.Order;
+import taproom.model.dao.OrderDao;
+import taproom.model.dao.OrderDaoInMemoryImp;
+
+public class OrderServiceImplementation implements OrderService {
+
+	
+	OrderDao orderDao=new OrderDaoInMemoryImp();
+	@Override
+	public boolean addOrder(Order order) {
+		// TODO Auto-generated method stub
+		return orderDao.addOrder(order);
+	}
+
+	@Override
+	public boolean removeOrder(Order order) {
+		// TODO Auto-generated method stub
+		return orderDao.removeOrder(order);
+	}
+
+}

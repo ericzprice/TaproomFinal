@@ -1,0 +1,21 @@
+package taproom.model.dao;
+
+import taproom.model.InMemoryDataBase;
+import taproom.model.Order;
+
+public class OrderDaoInMemoryImp implements OrderDao {
+	
+
+	@Override
+	public boolean addOrder(Order order) {
+		System.out.println("in order dao"+order+"order id "+order.getBeer().getStyle());
+		return InMemoryDataBase.getOrders().add(order);
+	}
+
+	@Override
+	public boolean removeOrder(Order order) {
+		// TODO Auto-generated method stub
+		return  InMemoryDataBase.getOrders().remove(order);
+	}
+
+}

@@ -1,0 +1,80 @@
+package taproom.model.service;
+
+import javax.ws.rs.core.MediaType;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+
+import taproom.model.Beer;
+import taproom.model.InMemoryDataBase;
+import taproom.model.dao.BeerDao;
+import taproom.model.dao.BeerDaoInMemoryImp;
+
+@Path("beers")
+public class BeerServiceImplementation implements BeerService{
+	BeerDao beerDao=new BeerDaoInMemoryImp();
+	
+	
+	@GET
+	@Produces(MediaType.TEXT_PLAIN)
+	public String  sayHi()
+	{
+		return "bonjour";
+	}
+	@Path("/{location}")
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public Beer getBeer(@PathParam("location") String location) {
+		// TODO Auto-generated method stub
+		System.out.println(InMemoryDataBase.getBeersList(location));
+		System.out.println(location);
+		List<Beer> beers;
+		System.out.println("beer ser imp"+ InMemoryDataBase.getBeersList(location).size());
+beers= InMemoryDataBase.getBeersList(location);
+		return beers.get(0) ;
+	}
+	
+	//@Path("/{location}")
+	@GET
+	@Produces(MediaType.TEXT_XML)
+	@Override
+	public List<Beer> getAllBeers(@PathParam("location") String location) {
+		// TODO Auto-generated method stub
+		System.out.println(InMemoryDataBase.getBeersList(location));
+		System.out.println(location);
+		List<Beer> beers;
+		System.out.println("beer ser imp"+ InMemoryDataBase.getBeersList(location).size());
+beers= InMemoryDataBase.getBeersList(location);
+		return beers ;
+	}
+
+	@Override
+	public boolean addBeer(Beer beer) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean removeBeer(Beer beer) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public Beer getBeerByName(String beerName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean updateBeer(Beer beer) {
+		
+		boolean updateStatus=beerDao.updateBeer(beer);
+		return updateStatus;
+	}
+
+}

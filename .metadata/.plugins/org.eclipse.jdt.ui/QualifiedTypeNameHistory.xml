@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlAccessorType"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlAccessType"/>
+<fullyQualifiedTypeName name="taproom.model.InMemoryDataBase"/>
+<fullyQualifiedTypeName name="taproom.model.dao.OrderDaoInMemoryImp"/>
+<fullyQualifiedTypeName name="taproom.model.dao.OrderDao"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Path"/>
+<fullyQualifiedTypeName name="javax.ws.rs.PathParam"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Produces"/>
+<fullyQualifiedTypeName name="org.eclipse.persistence.oxm.MediaType"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Consumes"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlElement"/>
+</qualifiedTypeNameHistroy>

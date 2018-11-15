@@ -1,0 +1,10 @@
+package taproom.model.service;
+
+import taproom.model.Order;
+
+public interface OrderService {
+
+	
+	boolean addOrder(Order order);
+	boolean removeOrder(Order order);
+}

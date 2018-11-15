@@ -1,0 +1,117 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@ page  import="taproom.model.Beer,taproom.model.Location,java.util.List" %>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<title>Active Taps</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("ounces").change(function(){
+        $.get("demo_test.asp", function(data, status){
+            alert("Data: " + data + "\nStatus: " + status);
+        });
+    });
+});
+</script>
+</head>
+<body>
+<form method=post action="PurchaseServlet">
+	<% 
+		String locationSelected=request.getQueryString().split("=")[1];
+		List<Location> locations=(List<Location>)session.getAttribute("locations");
+		String locationStr="";
+		for(Location location:locations)
+		{
+			locationStr=location.getName();
+	%>
+		
+		<a href=DisplayBeersServlet?location=<%= locationStr%>> <%= locationStr %></a>
+	   <%}%>
+<table class="table table-hover table-bordered " >
+<thead>
+	<tr>
+		<th scope="col">
+			Available Beers in <%=locationSelected %>
+		</th>
+		<th scope="col">
+			Choose the ounces 
+		</th>
+		<th scope="col">
+			Select the number of items 
+		</th>
+		<th scope="col" >
+			Select the  items you want to buy
+		</th>
+	</tr>
+	</thead>
+	<% 
+		request.setAttribute("location", locationSelected);
+		List<Beer> beers=(List<Beer>)request.getAttribute("beers"); 
+		
+		for(int i=0;i<beers.size(); i++)
+		{
+	%>
+	<tbody>
+	<tr>
+	<td>
+		<a href='DisplayBeersServlet'> 
+			<%
+			out.println(beers.get(i).getStyle()+"<br/>");
+			out.println("Description: "+beers.get(i).getDescription()+"<br/>");
+			out.println("ABV: "+beers.get(i).getABV()+"<br/>");
+			out.println("IBU: "+beers.get(i).getIBU()+"<br/>");
+			out.println("$ "+beers.get(i).getPrice1()+" |  ");
+			out.println(beers.get(i).getPrice2()+"<br/>  ");
+			%>
+		</a>
+	</td>
+	<td>
+		
+		  <select   name=ounces<%= beers.get(i).getStyle()%>>
+ 			 <option value='6'>6</option>
+  			 <option value='16'>16</option>
+  			</select>
+  		
+  	</td>
+  	<td> 
+  	
+  			<select  name=noOfItems<%=beers.get(i).getStyle().substring(0,4)%>> 
+  			<% 
+  				for (int j=0;j<10;j++)
+  				{ 
+  			%>
+				  			<option value='<%= j%>'>
+				  				<%= j%>
+				  			</option>
+				  			<%} %>
+			</select>
+			<input type=hidden name='location' value='<%= locationSelected%>' />
+		
+	</td>
+	<td>
+	
+			<input type='checkbox'  value='<%= beers.get(i).getStyle()%>' name='itemToBuy'  >
+	
+	</td>
+	</tr>
+			<%} %>
+			</tbody>
+</table>
+<input type=submit class="btn btn-default" value='submit'/>
+</form>
+</body>
+<script >$("button").click(function(){
+    $.get("demo_test.asp", function(data, status){
+        alert("Data: " + data + "\nStatus: " + status);
+    });
+});
+</script>
+<!--I need some comments about the jquery on 110...The jQuery get() and post() methods are used to request data from the server with an HTTP GET or POST request.. https://www.w3schools.com/jquery/jquery_ajax_get_post.asp  -->
+</html>

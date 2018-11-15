@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+/Users/ericprice/eclipse-workspace4/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4162222838.index
+/Taproom/src
+/Users/ericprice/eclipse-workspace4/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2262801590.index
+/Taproom/src
