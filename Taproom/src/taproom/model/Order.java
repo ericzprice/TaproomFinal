@@ -1,4 +1,4 @@
-    package taproom.model;
+package taproom.model;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -21,7 +21,7 @@ public class Order {
 	public Order(String beerStyle, String location,int quantity, int size) {
 		super();
 		this.beerStyle = beerStyle;
-                         this.location=location;
+        this.location=location;
 		this.size = size;
 	}
 	public Order() {

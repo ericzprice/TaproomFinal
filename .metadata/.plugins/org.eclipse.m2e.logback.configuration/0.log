@@ -998,3 +998,78 @@
 2018-11-15 11:19:56,929 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/main/resources
 2018-11-15 11:19:56,931 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2018-11-15 11:19:56,932 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/test/resources
+2018-11-15 16:59:09,929 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-11-15 16:59:15,049 [Worker-7: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-15 16:59:15,066 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/main/resources
+2018-11-15 16:59:15,072 [Worker-7: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-15 16:59:15,074 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/test/resources
+2018-11-15 17:01:07,439 [Worker-2: Launching Taproom] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ericprice/eclipse-workspace4/Taproom
+2018-11-15 17:01:07,442 [Worker-2: Launching Taproom] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-11-15 18:15:34,029 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-15 18:15:34,032 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/main/resources
+2018-11-15 18:15:34,035 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-15 18:15:34,036 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/test/resources
+2018-11-15 18:15:37,140 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-15 18:15:37,142 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/main/resources
+2018-11-15 18:15:37,144 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-15 18:15:37,145 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/test/resources
+2018-11-15 18:15:54,276 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-15 18:15:54,277 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/main/resources
+2018-11-15 18:15:54,280 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-15 18:15:54,282 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/test/resources
+2018-11-15 19:09:16,175 [Worker-35: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-15 19:09:16,178 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/main/resources
+2018-11-15 19:09:16,180 [Worker-35: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-15 19:09:16,181 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/test/resources
+2018-11-15 19:11:27,646 [Worker-32: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-15 19:11:27,648 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/main/resources
+2018-11-15 19:11:27,649 [Worker-32: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-15 19:11:27,651 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/test/resources
+2018-11-16 09:09:06,701 [Worker-130: Launching Taproom] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ericprice/eclipse-workspace4/Taproom
+2018-11-16 09:09:06,703 [Worker-130: Launching Taproom] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-11-16 10:19:54,162 [Worker-149: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-16 10:19:54,183 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/main/resources
+2018-11-16 10:19:54,185 [Worker-149: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-16 10:19:54,186 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/test/resources
+2018-11-16 10:22:06,863 [Worker-150: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-16 10:22:06,889 [Worker-150: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/main/resources
+2018-11-16 10:22:06,892 [Worker-150: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-16 10:22:06,894 [Worker-150: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/test/resources
+2018-11-16 10:23:03,911 [Worker-146: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-16 10:23:03,914 [Worker-146: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/main/resources
+2018-11-16 10:23:03,920 [Worker-146: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-16 10:23:03,921 [Worker-146: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/test/resources
+2018-11-16 10:23:21,284 [Worker-130: Launching Taproom] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ericprice/eclipse-workspace4/Taproom
+2018-11-16 10:23:21,286 [Worker-130: Launching Taproom] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-11-16 10:24:46,660 [Worker-147: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-16 10:24:46,673 [Worker-147: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/main/resources
+2018-11-16 10:24:46,676 [Worker-147: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-16 10:24:46,677 [Worker-147: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/test/resources
+2018-11-16 10:28:32,999 [Worker-149: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-16 10:28:33,006 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/main/resources
+2018-11-16 10:28:33,008 [Worker-149: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-16 10:28:33,010 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/test/resources
+2018-11-16 10:28:49,559 [Worker-151: Launching Taproom] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ericprice/eclipse-workspace4/Taproom
+2018-11-16 10:28:49,562 [Worker-151: Launching Taproom] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-11-16 10:33:34,451 [Worker-151: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-16 10:33:34,455 [Worker-151: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/main/resources
+2018-11-16 10:33:34,458 [Worker-151: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-16 10:33:34,459 [Worker-151: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/test/resources
+2018-11-16 10:36:36,332 [Worker-151: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-16 10:36:36,334 [Worker-151: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/main/resources
+2018-11-16 10:36:36,343 [Worker-151: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-16 10:36:36,344 [Worker-151: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/test/resources
+2018-11-16 10:40:19,372 [Worker-149: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-16 10:40:19,375 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/main/resources
+2018-11-16 10:40:19,384 [Worker-149: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-16 10:40:19,385 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/test/resources
+2018-11-16 10:54:33,394 [Worker-147: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-16 10:54:33,407 [Worker-147: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/main/resources
+2018-11-16 10:54:33,408 [Worker-147: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-16 10:54:33,410 [Worker-147: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/test/resources
+2018-11-16 10:56:11,262 [Worker-157: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-16 10:56:11,263 [Worker-157: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/main/resources
+2018-11-16 10:56:11,266 [Worker-157: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-16 10:56:11,267 [Worker-157: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ericprice/eclipse-workspace4/Taproom/src/test/resources
+2018-11-16 10:57:46,994 [Worker-154: Launching Taproom] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ericprice/eclipse-workspace4/Taproom
+2018-11-16 10:57:46,994 [Worker-154: Launching Taproom] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install

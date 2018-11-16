@@ -1,0 +1,67 @@
+package taproom.model.dao;
+
+import java.util.List;
+
+import taproom.model.Beer;
+import taproom.model.InMemoryDataBase;
+import taproom.model.Order;
+import taproom.model.service.BeerService;
+import taproom.model.service.BeerServiceImplementation;
+
+public class OrderDaoInMemoryImp implements OrderDao {
+	
+	BeerService beerService=new BeerServiceImplementation();
+	@Override
+	public boolean addOrder(Order order) {
+		System.out.println("in order dao"+order+"order id "+order.getBeerStyle()+"location"+ order.getLocation());
+		return InMemoryDataBase.getOrders().add(order);
+	}
+
+	@Override
+	public boolean removeOrder(Order order) {
+		// TODO Auto-generated method stub
+		return  InMemoryDataBase.getOrders().remove(order);
+	}
+
+	@Override
+	public boolean addMultipleOrders(List<Order> orders) {
+		for(Order order:orders)
+		{
+			if(InMemoryDataBase.getOrders().add(order)==true)
+			{
+				String location=order.getLocation();
+				List<Beer> beers=beerService.getAllBeers(location);
+				for(Beer beer:beers)
+				{
+					if(beer.getStyle().equalsIgnoreCase(order.getBeerStyle()))
+					{
+						beer.setTotalOunes(beer.getTotalOunes()-(order.getQuantity()*order.getSize()));
+						if(beer.getTotalOunes()==0)
+						{
+							beer.setKicked(true);
+							System.out.println("from orders dao in me "+beer.getStyle()+"is kicked");
+							break;
+						}
+						else if(beer.getTotalOunes()<0)
+						{
+							System.out.println("from orders dao in me "+beer.getStyle()+"iin else ifd");
+							return false;
+						}
+						else
+						{
+							
+						}
+						
+					}
+				}
+				
+			}
+			else
+			{
+				return false;
+			}
+		}
+		return true;
+	}
+
+}

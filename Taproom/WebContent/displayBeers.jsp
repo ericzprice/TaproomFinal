@@ -1,3 +1,6 @@
+<%-- Syntax of JSP Directive
+     <%@ directive attribute="value" %>   
+--%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"   pageEncoding="UTF-8"%>
     <%@ page  import="taproom.model.Beer,taproom.model.Location,java.util.List" %>
 <!DOCTYPE html>

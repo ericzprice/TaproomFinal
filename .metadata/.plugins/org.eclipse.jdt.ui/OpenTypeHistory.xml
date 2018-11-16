@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=Taproom/src&lt;taproom.model.dao{OrderDao.java[OrderDao" modifiers="513" timestamp="1542125170000"/>
-<typeInfo handle="=Taproom/src&lt;taproom.model.service{OrderService.java[OrderService" modifiers="513" timestamp="1542125597000"/>
+<typeInfo handle="=Taproom/src&lt;taproom.model.dao{OrderDao.java[OrderDao" modifiers="513" timestamp="1542298588000"/>
+<typeInfo handle="=Taproom/src&lt;taproom.model.service{OrderService.java[OrderService" modifiers="513" timestamp="1542298658000"/>
 <typeInfo handle="=Taproom/\/Users\/ericprice\/.m2\/repository\/org\/eclipse\/jetty\/jetty-webapp\/9.4.12.v20180830\/jetty-webapp-9.4.12.v20180830.jar&lt;org.eclipse.jetty.webapp(Ordering.class[Ordering" modifiers="1537" timestamp="1541869146000"/>
 </typeInfoHistroy>

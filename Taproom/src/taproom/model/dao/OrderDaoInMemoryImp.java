@@ -10,7 +10,7 @@ import taproom.model.service.BeerServiceImplementation;
 
 public class OrderDaoInMemoryImp implements OrderDao {
 	
-	BeerService beerService=new BeerServiceImplementation();
+	BeerDao beerService=new BeerDaoInMemoryImp();
 	@Override
 	public boolean addOrder(Order order) {
 		System.out.println("in order dao"+order+"order id "+order.getBeerStyle()+"location"+ order.getLocation());
@@ -29,12 +29,14 @@ public class OrderDaoInMemoryImp implements OrderDao {
 		{
 			if(InMemoryDataBase.getOrders().add(order)==true)
 			{
+				System.out.println("order placed is "+ order);
 				String location=order.getLocation();
 				List<Beer> beers=beerService.getAllBeers(location);
 				for(Beer beer:beers)
 				{
 					if(beer.getStyle().equalsIgnoreCase(order.getBeerStyle()))
 					{
+						System.out.println("line 39 ord dao inm");
 						beer.setTotalOunes(beer.getTotalOunes()-(order.getQuantity()*order.getSize()));
 						if(beer.getTotalOunes()==0)
 						{

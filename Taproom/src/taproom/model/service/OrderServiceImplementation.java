@@ -21,6 +21,7 @@ public class OrderServiceImplementation implements OrderService {
 	
 	@POST
 	@Consumes(MediaType.APPLICATION_JSON)
+//	Consumes only JSON
 	@Produces(MediaType.TEXT_PLAIN)
 		public boolean addOrder( Order order)
 		{

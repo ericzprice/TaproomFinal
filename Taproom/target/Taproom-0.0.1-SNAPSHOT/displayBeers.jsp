@@ -1,3 +1,6 @@
+<%-- Syntax of JSP Directive
+     <%@ directive attribute="value" %>   
+--%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"   pageEncoding="UTF-8"%>
     <%@ page  import="taproom.model.Beer,taproom.model.Location,java.util.List" %>
 <!DOCTYPE html>
@@ -51,9 +54,9 @@
 	            var first5=newURL.substring(0,5);
 	            //alert(first5);
 	            if(first5=="https")
-	            	rootURL="https://localhost:9998/Taproom/webapi/orders/multiple";
+	            	rootURL=newURL.substring(0,22)+"/Taproom/webapi/orders/multiple";//"https://localhost:9998/;
 	            else
-	            	rootURL="http://localhost:9998/Taproom/webapi/orders/multiple";
+	            	rootURL=newURL.substring(0,21)+"/Taproom/webapi/orders/multiple";//"http://localhost:9998/Taproom/webapi/orders/multiple";
 	            //alert("rootURL is"+rootURL)
 	           $.ajax({type: 'POST',
 	            	contentType:'application/json',

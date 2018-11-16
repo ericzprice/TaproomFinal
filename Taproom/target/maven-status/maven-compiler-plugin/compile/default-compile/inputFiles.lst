@@ -6,10 +6,10 @@
 /Users/ericprice/eclipse-workspace4/Taproom/src/taproom/model/service/BeerServiceImplementation.java
 /Users/ericprice/eclipse-workspace4/Taproom/src/taproom/jetty/server/EmbeddedJettyWebXmlConfigurationMain.java
 /Users/ericprice/eclipse-workspace4/Taproom/src/taproom/model/service/BeerService.java
+/Users/ericprice/eclipse-workspace4/Taproom/src/taproom/jetty/server/ServerStarter.java
 /Users/ericprice/eclipse-workspace4/Taproom/src/taproom/model/dao/LocationDao.java
 /Users/ericprice/eclipse-workspace4/Taproom/src/taproom/model/InMemoryDataBase.java
 /Users/ericprice/eclipse-workspace4/Taproom/src/taproom/controller/DisplayLocationsServlet.java
-/Users/ericprice/eclipse-workspace4/Taproom/src/taproom/jetty/server/Main.java
 /Users/ericprice/eclipse-workspace4/Taproom/src/taproom/model/dao/LocationDaoImplementation.java
 /Users/ericprice/eclipse-workspace4/Taproom/src/taproom/model/dao/OrderDao.java
 /Users/ericprice/eclipse-workspace4/Taproom/src/understanding/Person.java

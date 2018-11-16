@@ -1,5 +1,4 @@
 taproom/model/Tap.class
-taproom/jetty/server/Main$JspStarter.class
 taproom/model/service/BeerService.class
 taproom/controller/DisplayBeersServlet.class
 taproom/model/InMemoryDataBase.class
@@ -7,7 +6,6 @@ taproom/model/service/OrderServiceImplementation.class
 taproom/model/dao/OrderDaoInMemoryImp.class
 taproom/controller/DisplayLocationsServlet.class
 taproom/model/Location.class
-taproom/jetty/server/Main.class
 taproom/controller/PurchaseServlet.class
 taproom/model/service/LocationService.class
 taproom/model/Beer.class
